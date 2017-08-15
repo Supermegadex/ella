@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-
-import { NavController, NavParams } from 'ionic-angular';
-
+import { NavController, NavParams, PopoverController, ModalController, Events } from 'ionic-angular';
 import { ItemDetailsPage } from '../item-details/item-details';
+import { SortPopup } from './popup';
+
+import * as dictionary from './dictionary.json';
 
 @Component({
   selector: 'page-list',
@@ -10,25 +11,46 @@ import { ItemDetailsPage } from '../item-details/item-details';
 })
 export class ListPage {
   icons: string[];
-  items: Array<{title: string, note: string, icon: string}>;
+  items: Array<{name: string, definition: string, pos: string, type: string, page: number}>;
+  dic: any = dictionary;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-    this.icons = ['flask', 'wifi', 'beer', 'football', 'basketball', 'paper-plane',
-    'american-football', 'boat', 'bluetooth', 'build'];
-
-    this.items = [];
-    for(let i = 1; i < 11; i++) {
-      this.items.push({
-        title: 'Item ' + i,
-        note: 'This is item #' + i,
-        icon: this.icons[Math.floor(Math.random() * this.icons.length)]
-      });
-    }
+  constructor(public navCtrl: NavController, public navParams: NavParams, private mc: ModalController, public popoverCtrl: PopoverController, private e: Events) {
+    this.items = this.dic.words;
+    this.e.subscribe("lmnop:sort", by => {
+      this.only(by);
+    })
   }
 
   itemTapped(event, item) {
-    this.navCtrl.push(ItemDetailsPage, {
+    let word = this.mc.create(ItemDetailsPage, {
       item: item
+    });
+    word.present();
+  }
+
+  only(by) {
+    if (by) {
+      let words = [];
+      for (let word of this.dic.words) {
+        if (word.type == by) {
+          words.push(word);
+        }
+      }
+      this.items = words;
+    }
+    else this.items = this.items = this.dic.words;
+  }
+
+  sort(by) {
+
+  }
+
+  sortPopup(e) {
+    let popover = this.popoverCtrl.create(SortPopup);
+    popover.present({
+      ev: e
     });
   }
 }
+
+// flash, flower, happy

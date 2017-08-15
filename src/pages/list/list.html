@@ -1,20 +1,19 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>My First List</ion-title>
+  <ion-navbar color="primary">
+    <ion-title>Ella Minnow Pea Dictionary</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only clear (click)="sortPopup($event)">
+        <ion-icon name="funnel"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
     <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon name="{{item.icon}}" item-left></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-right>
-        {{item.note}}
-      </div>
+      {{item.name}}
+      <span item-end>Page {{item.page}}</span>
     </button>
   </ion-list>
 </ion-content>
