@@ -112,6 +112,34 @@
       "pos": "n",
       "page": 68,
       "type": "unknown"
+    },
+    {
+      "name": "cenotaph",
+      "definition": "a monument for a deceased person that is not located at the site of the tomb",
+      "pos": "n",
+      "page": 166,
+      "type": "unknown"
+    },
+    {
+      "name": "portiere",
+      "definition": "a curtain that blocks off the doorway",
+      "pos": "n",
+      "page": 157,
+      "type": "unknown"
+    },
+    {
+      "name": "grapheme",
+      "definition": "a letter or character that make up the smallest part of a language",
+      "pos": "n",
+      "page": 153,
+      "type": "unknown"
+    },
+    {
+      "name": "appell",
+      "definition": "",
+      "pos": "n",
+      "page": 153,
+      "type": "unknown"
     }
   ]
 }
