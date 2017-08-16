@@ -5,42 +5,48 @@
       "definition": "trying to find something",
       "pos": "v",
       "page": 77,
-      "type": "coinage"
+      "type": "coinage",
+      "img":  "assets/img/grip.jpg"
     },
     {
       "name": "humungolacity",
       "definition": "largeness",
       "pos": "n",
       "page": 69,
-      "type": "coinage"
+      "type": "coinage",
+      "img": "assets/img/huge.jpg"
     },
     {
       "name": "pentapriests",
       "definition": "the group of 5 priests that make up the high island council",
       "pos": "n",
       "page": 68,
-      "type": "coinage"
+      "type": "coinage",
+      "img": "assets/img/priests.jpg"
     },
     {
       "name": "confabettes",
       "definition": "a small group of people who attend an informal meeting; combination of \"confab\" (small, informal meeting) and \"-ette\" (French suffix meaning small or dainty).",
       "pos": "n",
       "page": 68,
-      "type": "coinage"
+      "type": "coinage",
+      "img": "assets/img/confab.jpg"
     },
     {
       "name": "multypritude",
       "definition": "one who enjoys writing",
       "pos": "n",
       "page": 5,
-      "type": "coinage"
+      "type": "coinage",
+      "img": "assets/img/letter.jpg"
     },
     {
       "name": "town baa-baas",
       "definition": "townspeople who are not strong enough to resist the high council's commands.",
       "pos": "n",
       "page": 49,
-      "type": "euphemism"
+      "type": "euphemism",
+      "img": "assets/img/sheep.jpg"
     },
     {
       "name": "spinal-defectives",
@@ -68,7 +74,8 @@
       "definition": "omission of a sound in a word or a passage in a book",
       "pos": "n",
       "page": 91,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/elision.jpg"
     },
     {
       "name": "alacrity",
@@ -82,7 +89,8 @@
       "definition": "melodious, pleasant to the ear",
       "pos": "n",
       "page": 73,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/music.jpg"
     },
     {
       "name": "deracinating",

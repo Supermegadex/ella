@@ -11,7 +11,7 @@ import * as dictionary from './dictionary.json';
 })
 export class ListPage {
   icons: string[];
-  items: Array<{name: string, definition: string, pos: string, type: string, page: number}>;
+  items: Array<{name: string, definition: string, pos: string, type: string, page: number, img: string}>;
   dic: any = dictionary;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private mc: ModalController, public popoverCtrl: PopoverController, private e: Events) {

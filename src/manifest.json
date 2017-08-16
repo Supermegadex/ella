@@ -1,13 +1,15 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Ella Minnow Pea Dictionary",
+  "short_name": "LMNOP Dict",
   "start_url": "index.html",
   "display": "standalone",
-  "icons": [{
-    "src": "assets/imgs/logo.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "icons": [
+    {
+      "src": "assets/imgs/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#F57C00",
+  "theme_color": "#F57C00"
 }

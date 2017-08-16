@@ -14,6 +14,7 @@
     <ion-row>
       <ion-col col-12>
         <ion-card color="primary">
+          <img *ngIf="selectedItem.img" [src]="selectedItem.img" />
           <ion-card-header>
             {{selectedItem.name}}, <i>{{selectedItem.pos}}.</i>
           </ion-card-header>
