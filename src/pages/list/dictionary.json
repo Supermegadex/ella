@@ -2,15 +2,15 @@
   "words": [
     {
       "name": "gripgrasping",
-      "definition": "trying to find something",
+      "definition": "trying to find something; reaching for something",
       "pos": "v",
       "page": 77,
       "type": "coinage",
       "img":  "assets/img/grip.jpg"
     },
     {
-      "name": "humungolacity",
-      "definition": "largeness",
+      "name": "humongolacity",
+      "definition": "largeness or importance of an object",
       "pos": "n",
       "page": 69,
       "type": "coinage",
@@ -18,7 +18,7 @@
     },
     {
       "name": "pentapriests",
-      "definition": "the group of 5 priests that make up the high island council",
+      "definition": "the group of 5 priests that makes up the high island council",
       "pos": "n",
       "page": 68,
       "type": "coinage",
@@ -42,7 +42,7 @@
     },
     {
       "name": "town baa-baas",
-      "definition": "townspeople who are not strong enough to resist the high council's commands.",
+      "definition": "people who are not strong enough to resist the commands of an authority if needed; it compares townspeople to sheep, which say \"baa,\" and how the mammals are herded by their shepherd without trying to escape",
       "pos": "n",
       "page": 49,
       "type": "euphemism",
@@ -50,24 +50,35 @@
     },
     {
       "name": "spinal-defectives",
-      "definition": "weak or spineless",
+      "definition": "weak, cowardly; probably derived from \"spineless,\" hence \"spinal,\" and defectives are those who turn their backs to their community",
       "pos": "n",
       "page": 49,
-      "type": "euphemism"
+      "type": "euphemism",
+      "img": "assets/img/lion.jpg"
     },
     {
-      "name": "crepiscular-to-auroric",
-      "definition": "from sun down to sun up",
+      "name": "crepuscular-to-auroric",
+      "definition": "from sun down to sun up; a curfew; crepuscular means twilight and aurora is the Latin word for dawn",
       "pos": "adj",
       "page": 127,
-      "type": "euphemism"
+      "type": "euphemism",
+      "img": "assets/img/curfew.jpg"
     },
     {
       "name": "dull-brass-and-pauper's-punch",
-      "definition": "blunt; brute force",
+      "definition": "without proof; blunt; uninformed; dull brass could be used in some kind of blunt weapon-instead of diplomacy being the goal of a",
       "pos": "adj",
       "page": 4,
-      "type": "euphemism"
+      "type": "euphemism",
+      "img": "assets/img/fact-or-opinion.gif"
+    },
+    {
+      "name": "bastinado-beneficed",
+      "definition": "of being harsh or brutal in the of a religious entity; bastinado means caning a parson's feet and a benefice is a permanent religious appointment",
+      "pos": "adj",
+      "page": 49,
+      "type": "euphemism",
+      "img": "assets/img/lash.jpg"
     },
     {
       "name": "elision",
@@ -82,7 +93,8 @@
       "definition": "being eager, cheerful readiness",
       "pos": "n",
       "page": 91,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/eager.jpg"
     },
     {
       "name": "mellifluous",
@@ -97,49 +109,56 @@
       "definition": "tearing something up completely",
       "pos": "adj",
       "page": 69,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/deracinating.jpg"
     },
     {
       "name": "pyrrhic",
       "definition": "(of a success) won, but was not worth the price for the victor",
       "pos": "adj",
       "page": 68,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/pyrrhic.jpg"
     },
     {
-      "name": "scyntilla",
-      "definition": "very small or insignificant",
+      "name": "scintilla",
+      "definition": "very small; tiny, brilliant flash or spark",
       "pos": "n",
       "page": 68,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/tiny.jpg"
     },
     {
       "name": "cenotaph",
       "definition": "a monument for a deceased person that is not located at the site of the tomb",
       "pos": "n",
       "page": 166,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/cenotaph.jpg"
     },
     {
       "name": "portiere",
       "definition": "a curtain that blocks off the doorway",
       "pos": "n",
       "page": 157,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/portiere.jpg"
     },
     {
       "name": "grapheme",
       "definition": "a letter or character that make up the smallest part of a language",
       "pos": "n",
       "page": 153,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/grapheme.png"
     },
     {
       "name": "appell",
-      "definition": "",
+      "definition": "\"roll call,\" German",
       "pos": "n",
       "page": 153,
-      "type": "unknown"
+      "type": "unknown",
+      "img": "assets/img/megaphone.jpg"
     }
   ]
 }
